@@ -1,15 +1,14 @@
-
 .Hello{
     color: rgb(226, 172, 172);
     font-size: 25px;
 }
 .name{
-    font-size: 90px;
+    font-size: 65px;
     font-weight: 600;
     color: white;
 }
 .name2{
-    font-size: 90px;
+    font-size:65px;
     font-weight: 600;
     color: rgb(255, 0, 0);
 }
@@ -36,6 +35,7 @@
     margin-top: 50px;
     justify-content: space-between;
     width: 30%;
+    gap: 15px;
 }
 .img-icon{
     width: 30px;
@@ -143,3 +143,4 @@
     display: flex;
     flex-wrap: wrap;
 }
+  

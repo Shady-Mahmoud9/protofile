@@ -12,13 +12,13 @@
     letter-spacing: 1.5px;
 }
 .kanaba{
-    width: 60%;
+    width: 100%;
     height: 600px;
     margin-top: -170px;
-    margin-left: auto;
+    
 }
 .headd{
-    margin-top: -200px; 
+
     font-weight: 700;
 }
 .grid-container {
@@ -30,11 +30,7 @@
     border: 1px solid black;
     padding: 10px;
 }
-.c-img{
-    width: 350px;
-    height:350px;
-    margin: 50px;
-}
+
 .cen{
     margin-top:220px;
 }
@@ -46,7 +42,7 @@ h3{
     width: 400px;
 }
 .dd{
-    width: 100%;
+    
     height: 300px;
 }
 .cont{
@@ -55,9 +51,8 @@ h3{
 }
 .foot{
     background-color: gray;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
+    height: 100%;
+    
 }
 .gg{
     display: flex;
