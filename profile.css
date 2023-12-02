@@ -1,0 +1,145 @@
+
+.Hello{
+    color: rgb(226, 172, 172);
+    font-size: 25px;
+}
+.name{
+    font-size: 90px;
+    font-weight: 600;
+    color: white;
+}
+.name2{
+    font-size: 90px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+}
+.name3{
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+}
+.name4{
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+}
+.textwhite{
+    color: white;
+    font-size: 25px;
+}
+.textred{
+    color: red;
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 30%;
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+
+}
+.img-icon:hover{
+    width: 40px;
+    height: 40px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.back{
+    border-radius: 50% 0 70% 0;
+    background-color: red;
+    width: 250px; 
+    height: 350px;
+}
+.secondcolumn{
+    position: relative;
+    margin-top: 50px;
+
+}
+.img{
+    position: absolute;
+}
+.img2{
+    z-index: 1;
+    width: 75%;
+    margin-top: -100px;
+    left: 50px;
+}
+.img1{
+    
+    width: 100%;
+    transform: rotate(250deg);
+}
+
+.img2:hover{
+    scale: 1.1;
+
+}
+.card{
+    background-color: rgb(30, 29, 29);
+    margin-top: 30px;
+}
+.card:hover{
+    scale: 1.1;
+}
+.card-title{
+    font-size: 30px;
+    color: white;
+}
+.card-text{
+    color: rgb(246, 147, 147);
+}
+.img-skil
+{
+   
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.img-skil:hover{
+    scale: 1.3;
+}
+.imgs-skills{
+    width: 100%;
+}
+
+.cardd:hover{
+    scale: 1.1;
+    transition: 1s ease;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 45px;
+    z-index: 1;
+}
+.cardd {
+    /* width: 350px; */
+    /* height: 350px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px 10px;
+    text-align: center;
+    background-color:rgb(30, 29, 29);
+    color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-radius: 65px;
+    /* margin-top: 70px; */
+}
+
+.cardd img {
+    margin-top: 20px;
+    width: 100%;
+    height:270px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.papa{
+    display: flex;
+    flex-wrap: wrap;
+}

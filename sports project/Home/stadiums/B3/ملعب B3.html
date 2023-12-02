@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <div class="text-center"><h1>Welcome</h1><br><h4>Welcome to our page ,I wish it admires you ,Let’s GOOO!!</h4> </div>
+    <title>B3 Club</title>
+</head>
+    <!-- <style> canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .card:hover{
+           
+            transition: 1s ease;
+            cursor: pointer;
+            border: 1px black solid;
+            border-radius: 45px;
+   
+        }
+    .card{
+      border: 1px solid blanchedalmond;
+      border-radius: 5px;
+      width: 450PX;
+            height: 460PX;
+    }
+  </style>
+  <canvas id="canvas"></canvas>
+  <script>
+     const canvas = document.getElementById('canvas'); 
+    const ctx = canvas.getContext('2d'); 
+
+     canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const balls = [];
+    const colors = ['#2185C5', '#7ECEFD', '#FFF6E5', '#FF7F66', '#F4D35E', '#EE964B', '#F95738', '#FEC606'];
+
+    class Ball {
+      constructor(x, y, dx, dy, radius, color) {
+        this.x = x;
+        this.y = y;
+        this.dx = dx;
+        this.dy = dy;
+        this.radius = radius;
+        this.color = color;
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = this.color;
+        ctx.fill();
+        ctx.closePath();
+      }
+
+      update() {
+        if (this.x + this.radius > innerWidth || this.x - this.radius < 0) {
+          this.dx = -this.dx;
+        }
+
+        if (this.y + this.radius > innerHeight || this.y - this.radius < 0) {
+          this.dy = -this.dy;
+        }
+
+        this.x += this.dx;
+        this.y += this.dy;
+
+        this.draw();
+      }
+    }
+
+    for (let i = 0; i < 100; i++) {
+      const x = Math.random() * innerWidth;
+      const y = Math.random() * innerHeight;
+      const dx = (Math.random() - 0.5) * 5;
+      const dy = (Math.random() - 0.5) * 5;
+      const radius = Math.random() * 20 + 10;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+
+      balls.push(new Ball(x, y, dx, dy, radius, color));
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      ctx.clearRect(0, 0, innerWidth, innerHeight);
+
+      for (let i = 0; i < balls.length; i++) {
+        balls[i].update();
+      }
+    }
+
+    animate();
+  </script>  -->
+<body class="bg-dark" style="color: white;">
+    <div class="container">
+        <div id="shadyyyyyy" class="carousel slide" >
+            
+          <ul  class="carousel-indicators">
+          
+          <li data-bs-target="#shadyyyyyy" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#shadyyyyyy" data-bs-slide-to="1"></li>
+          <li data-bs-target="#shadyyyyyy" data-bs-slide-to="2"></li>
+          </ul>
+              <div class="carousel-inner">
+      <div class="carousel-item active"><img src="images\ملعب B3.jpeg" class="w-100" alt="" style="height: 700px;"> </div>
+      
+      <div class="carousel-item"><img src="images\ملعب B3.jpeg" class="d-block w-100 " alt="" style="height: 700px;"></div>
+      
+      <div class="carousel-item "><img src="images\ملعب B3.jpeg" class="d-block w-100 " alt="jkj" style="height: 700px;">  </div>
+      
+            </div>
+            
+              <button class="carousel-control-prev" type="button" data-bs-target="#shadyyyyyy" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#shadyyyyyy" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+      
+      
+            </div>
+          </div>
+
+</body>
+</html>

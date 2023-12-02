@@ -1,0 +1,32 @@
+.contain{
+    width: 400px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    gap: 15px;
+    justify-content: center;
+
+}
+.title
+{
+    background-image:linear-gradient(rgb(228, 119, 224),rgb(64, 239, 255)) ;
+    font-weight: 700;
+    font-size: 50px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+
+
+}
+.squares{
+    background-image:linear-gradient(rgb(64, 239, 255),rgb(228, 119, 224))  ;
+   font-size: 180px;
+   text-align: center;
+}
+.squares:hover{
+    background-image: linear-gradient(rgb(198, 198, 198),rgb(57, 55, 55));
+    cursor: pointer;
+}

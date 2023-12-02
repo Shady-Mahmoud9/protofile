@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="ui.css">
+    <script src="js/bootstrap.bundle.js"></script>
+ <style>
+  .step-number {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.step-text {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  margin-top: -5px;
+}
+ </style>
+</head>
+<body>
+   
+    <div class="container" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg  navbar-light px-3" style="position: fixed; z-index: 1; background-color: white; margin-left: 40px;">
+        <a href="#xy" data-bs-toggle="collapse" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <a href="" class="navbar-brand"><img src="images/brand.jpg" style="width: 40px; height: 40px; font-size: 20 px;" alt="">Quickbooks.</a>
+        <div  id="xy" class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav px-5">
+               
+                  
+                <li class="nav-item">
+                    <a href="" class="nav-link">Products&favourites</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">palys&pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">learn&support</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">sales <select name="" id="" style="border: none;"> 
+                        <option value="shady">              </option>
+                        <option value="shady">    10000$           </option>
+                        <option value="shady">     10000$          </option>
+                        
+                    </select></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <div class="dropdown">
+                            <button style="width: 100px; height: 35px; border: 1px solid black; background-color: white;" class="dropdown-toggle" data-bs-toggle="dropdown">sign in</button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item ">shady</li>
+                            <li class="dropdown-item">shady</li>
+                            <li class="dropdown-item">shady</li>
+                            <li class="dropdown-item">shady</li>
+                        </ul>
+                    </div></a>
+                </li>
+            </ul>
+        </div>
+</nav>
+<br>
+<div class="row" style="margin-top: 50px;">
+    <div class="col-lg-6" style="margin-left: 40px;">
+<p style="font-weight: 900; font-size: 50px; " >Tools To help your <br> business thrive </p>
+<br>
+<p><img src="images/true.png" style="width: 15px; height: 10px;" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+<p><img src="images/true.png" style="width: 15px; height: 10px;" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+<p><img src="images/true.png" style="width: 15px; height: 10px;" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+<button class="btn btn-success">See place and pricing</button><button class="btn" style="border: 1px solid gray; margin-left: 20px;">Take the qyie</button>
+</div>
+<div class="col-lg-2">
+    <div>
+        <img src="images/woman.jfif" style="width: 150px; height: 200px; border-radius: 5px; margin-left: 50px; margin-top: 40px;"  alt="">
+        <br><br>
+        <div style=" width:200px; height: 130px; box-shadow: 1px 1px 5px  1px gray; font-weight: 700; border-radius: 5px;"> <p style="margin-left: 20px; "><br> New business ?? <br> We Can hrlp. <br> <button class="btn btn-outline-success">Start Now</button></p></div>
+    </div>
+    
+</div>
+<div class="col-lg-2 mt-4" >
+    <img src="images/tadaawel.png"  style="width: 200px; height: 380px; border-radius: 20px; " alt="">
+</div>
+</div>
+</div>
+<div class="container" style="background-color: rgb(228, 224, 219); margin-top: 50px ;">
+    <br>
+  <!-- <p style="font-weight: 600; font-size: 50px;" class="text-center">Find a plan thats right for you</p>
+    <div style="display: flex; margin-left: 350px; ">
+        <p class="col-lg-4 col-md-6" style="font-size: 15px; font-weight: 600; background-color: green; color: white; border-radius: 50%; width: 22px; height: 25px;"> 1</p> <p style="color: green; font-weight: 500; font-size: 20px; margin-left: 15px; margin-top: -5px;">select plan <hr style="margin-left: 20px;" width="40px" ></p>
+        <p class="col-lg-4 col-md-6" style="font-size: 15px; font-weight: 600; background-color: rgb(255, 255, 255); color: green; border-radius: 50%; width: 22px; height: 25px; margin-left: 20px;"> 2</p> <p style="color: rgb(0, 0, 0); font-weight: 500; font-size: 20px; margin-left: 15px; margin-top: -5px;">Add payroll(optional) <hr style="margin-left: 20px;" width="40px" ></p>
+        <p class="col-lg-4 col-md-6" style="font-size: 15px; font-weight: 600; background-color: rgb(255, 255, 255); color: green; border-radius: 50%; width: 22px; height: 25px; margin-left: 20px;"> 3</p> <p style="color: rgb(0, 0, 0); font-weight: 500; font-size: 20px; margin-left: 15px; margin-top: -5px;"> Checkout </p>
+    
+    </div> -->
+    <div class="row d-flex justify-content-center ">
+      <div class="col-md-4 d-flex gap-5 ">
+        <p class="step-number">1</p>
+        <p class="step-text">select plan<hr style="margin-left: 20px;" width="80px" ></p>
+      </div>
+      <div class="col-md-4 d-flex gap-5">
+        <p class="step-number">2</p>
+        <p class="step-text">Add payroll(optional)<hr style="margin-left: 20px;" width="80px" ></p>
+      </div>
+      <div class="col-md-4 d-flex gap-5">
+        <p class="step-number">3</p>
+        <p class="step-text">Checkout</p>
+      </div>
+    </div>
+    
+    <div class="row">
+        <div class="card col-lg-3 col-md-6" style="position: relative;">
+            <small  style="background-color: black; width: 90%; border-radius: 5px; margin-left: 7px; height: 27px; color: white; font-size: 15px; visibility: hidden; position: absolute; margin-top: -33px;">
+                most perform
+            </small>
+
+          <div class="card-body">
+           
+            <div style="font-weight: 600; font-size: 25px;">Simple Start</div>
+            <div style="color: gray; margin-bottom: -20px;">$30</div><br>
+            <div style="display: flex;"><div style=" font-size: 15px; font-weight: 800; margin-left: 45px; ">s</div><div style="  font-size: 35px; font-weight: 800; margin-top: -20px;">15</div><div style=" font-size: 15px; font-weight: 800;">/mo</div></div>
+            <br><p style="font-size: 13px;"> Save 50% for 3 months . </p>
+            <button class="btn btn-success">Choose plan</button><br><br>
+            <div style="text-align: start;">
+           <u> Lorem ipsu</u>
+           <br>
+           <u>m dolor si</u>
+           <br>
+           <u>t amet, consectetu</u>
+           <br>
+           <u> r adipisi</u>
+           <br>
+           <u> cing elit. E</u>
+           <br>
+           <u> xpedita</u>
+           <br>
+
+           <u> iste neces</u>
+           <br>
+
+           <u>sitatibus maiores </u>
+           <br>
+
+           <u>? Magnam </u>
+           <br>
+
+           <u>obcaecati asperior</u>
+           <br>
+
+           <u>es deleniti </u>
+           <br>
+
+           <u>quasi dolores dolorum </u>
+           <br>
+
+           <u>at. Natus alias ut</u>
+           <br>
+
+           <u>non aperiam aliquam</u>
+           <br>
+
+           <u>doloremque, illum a!</u>
+           <br>
+           <u> Lorem ipsu</u>
+           <br>
+           <u>m dolor si</u>
+           <br>
+           <u>t amet, consectetu</u>
+           <br>
+           <u> r adipisi</u>
+           <br>
+           <u> cing elit. E</u>
+           <br>
+           <u> xpedita</u>
+           <br>
+
+           <u> iste neces</u>
+           <br>
+
+           <u>sitatibus maiores </u>
+           <br>
+
+           <u>? Magnam </u>
+           <br>
+
+           <u>obcaecati asperior</u>
+           <br>
+
+           <u>es deleniti </u>
+           <br>
+
+           <u>quasi dolores dolorum </u>
+           <br>
+
+           <u>at. Natus alias ut</u>
+           <br>
+
+           <u>non aperiam aliquam</u>
+           <br>
+
+           <u>doloremque, illum a!</u>
+           <br>
+           <u>obcaecati asperior</u>
+           <br>
+
+           <u>es deleniti </u>
+           <br>
+
+           
+        </div>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-6">
+            <div class="card-body">
+              <div style="font-weight: 600; font-size: 25px;">Essentials</div>
+              <div style="color: gray; margin-bottom: -20px;">$55</div><br>
+              <div style="display: flex;"><div style=" font-size: 15px; font-weight: 800; margin-left: 45px; ">s</div><div style="  font-size: 35px; font-weight: 800; margin-top: -20px;">27</div><div style="font-size: 20; font-weight: 800; margin-top: -12px;">50</div><div style=" font-size: 15px; font-weight: 800;">/mo</div></div>
+              <br><p style="font-size: 13px;"> Save 50% for 3 months . </p>
+              <button class="btn btn-success">Choose plan</button><br><br>
+              <div style="text-align: start;">
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+              </div>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-6">
+            <div class="card-body">
+              <div style="font-weight: 600; font-size: 25px;">plus</div>
+              <div style="color: gray; margin-bottom: -20px;">$85</div><br>
+              <div style="display: flex;"><div style=" font-size: 15px; font-weight: 800; margin-left: 45px; ">s</div><div style="  font-size: 35px; font-weight: 800; margin-top: -20px;">42</div><div style="font-size: 20; font-weight: 800; margin-top: -12px;">50</div><div style=" font-size: 15px; font-weight: 800;">/mo</div></div>
+              <br><p style="font-size: 13px;"> Save 50% for 3 months . </p>
+              <button class="btn btn-success">Choose plan</button><br><br>
+              <div style="text-align: start;">
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+              </div>
+            </div>
+          </div>
+         
+          <div class="card col-lg-3 col-md-6">
+            <div class="card-body">
+              <div style="font-weight: 600; font-size: 25px;">Advanced</div>
+              <div style="color: gray; margin-bottom: -20px;">$200</div><br>
+              <div style="display: flex;"><div style=" font-size: 15px; font-weight: 800; margin-left: 45px; ">s</div><div style="  font-size: 35px; font-weight: 800; margin-top: -20px;">100</div><div style=" font-size: 15px; font-weight: 800;">/mo</div></div>
+              <br><p style="font-size: 13px;"> Save 50% for 3 months . </p>
+              <button class="btn btn-success">Choose plan</button><br><br>
+              <div style="text-align: start;">
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u> Lorem ipsu</u>
+             <br>
+             <u>m dolor si</u>
+             <br>
+             <u>t amet, consectetu</u>
+             <br>
+             <u> r adipisi</u>
+             <br>
+             <u> cing elit. E</u>
+             <br>
+             <u> xpedita</u>
+             <br>
+  
+             <u> iste neces</u>
+             <br>
+  
+             <u>sitatibus maiores </u>
+             <br>
+  
+             <u>? Magnam </u>
+             <br>
+  
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+             <u>quasi dolores dolorum </u>
+             <br>
+  
+             <u>at. Natus alias ut</u>
+             <br>
+  
+             <u>non aperiam aliquam</u>
+             <br>
+  
+             <u>doloremque, illum a!</u>
+             <br>
+             <u>obcaecati asperior</u>
+             <br>
+  
+             <u>es deleniti </u>
+             <br>
+  
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row" style="background-color: white; width: 66%;  margin-left: 220px; border-radius: 5px;" >
+        
+        
+       
+        
+<div style="display: flex; justify-content: space-between; margin-top: 30px; padding-bottom: 40px;">
+    <div class="grid-container">
+  
+        <div class="item2"><img src="images/woman face.jpg" style="border-radius: 50%; border: 3px solid green; width: 80px; height: 80px; margin-top: 15px;" alt=""></div>
+        <div class="item3"><div style="font-size: 15px; font-weight: 800; margin-left: 15px;"> Streamline your guided setup with a live <br> Bookkeeper</div></div>  
+        <div class="item5" ><div style="margin-left: 15px;">Lorem, ipsum dolor sit amet consectetur.  <br> ipsam placeat, f
+                  tempore odio culpa <small style="color: rgb(44, 46, 167);"> learn more </small></div></div>
+          <div class="item6"> <div class="btn btn-outline-success"  style="margin-left:200px ;">+ Add Guided setup</div></div>
+        <div class="item4">
+          <div style="margin-left:200px ; font-size: 20px; font-weight: 800; margin-left: 220px;" >$ 50 session</div></div>
+      </div>
+        
+
+</div>
+    </div>
+  <p style="font-weight: 500; padding: 50px 0;  text-decoration: underline;" >Lorem ipspm dolor sit amet consectetur adipisicing elit. 
+
+    </p>
+</div>
+<div class="container-fluid">
+  <h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">Explore all you  can <br> do with QuickBooks </h1>
+        <div style="display: flex; justify-content:center; gap: 50px;">
+<div class="card1">
+    <img src="images/profit.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1>See profit at <br> a glance</h1> <br>
+    <p>Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+<div class="card1">
+    <img src="images/credit-card.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1>pay your <br> team</h1> <br>
+    <p>Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+<div class="card1">
+    <img src="images/idea.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1> Get paid </h1> <br>
+    <p style="margin-top: 43px;">Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+</div>
+<div style="display: flex; justify-content:center; gap: 50px;">
+
+<div class="card1">
+    <img src="images/headphones.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1>Get books <br> done for you</h1> <br>
+    <p>Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+<div class="card1">
+    <img src="images/notes.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1>Track <br> Expenses</h1> <br>
+    <p>Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+<div class="card1">
+    <img src="images/idea.png" style="width: 25px; height: 25px; margin-top: 35px;" alt=""><br><br>
+    <h1>Start<br> a business</h1> <br>
+    <p>Lorem ipsum dolor sit amet consectetur .<br> eligendi architectoi shady.</p><br>
+    <div class="btn btn-success">see planes</div> <br><br>
+    <u>shady mahmoud</u> 
+
+</div>
+</div>
+
+<h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">Not Sure what you need ? <br> lets find out.</h1> <br><br><br>
+
+
+
+<div class="container">
+    <div id="shadyyyyyy" class="carousel slide" >
+        
+      <ul  class="carousel-indicators">
+      
+      <li data-bs-target="#shadyyyyyy" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#shadyyyyyy" data-bs-slide-to="1"></li>
+      <li data-bs-target="#shadyyyyyy" data-bs-slide-to="2"></li>
+      <li data-bs-target="#shadyyyyyy" data-bs-slide-to="3"></li>
+      <li data-bs-target="#shadyyyyyy" data-bs-slide-to="4"></li>
+      </ul>
+          <div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="w-100 bg-dark text-light" style="height: 500px; display: flex; justify-content: space-between;"><h1 style="padding: 200px 0 0 200px; text-align: start;">what do you want <br> to accomplish <br> today ??</h1></div> 
+    <div class="w-50" style="height: 450px; box-shadow: 20px 15px 10px  rgb(148, 212, 212); background-color: rgb(159, 223, 223); border-radius: 15px; margin-top: -380px; margin-left: 500px; color: black; text-align: start; font-size: 20px; font-weight: 700; padding-left: 50px; padding-top: 50px;"><p>choose all that apply</p><br>
+    <div style="background-color: white; width: 80%; margin-left: 50px; height: 14%; text-align:center; padding-top: 14px; border-radius: 5px;">Track money ia and out <img src="images/information.png" style="height: 20px; width: 20px; margin-left: 110px; " alt=""></div>
+    <div style="background-color: white; width: 80%; margin-left: 50px; height: 14%; text-align:center; padding-top: 14px; border-radius: 5px; margin-top: 5px;">Track money ia and out <img src="images/information.png" style="height: 20px; width: 20px; margin-left: 110px; " alt=""></div>
+    <div style="background-color: white; width: 80%; margin-left: 50px; height: 14%; text-align:center; padding-top: 14px; border-radius: 5px; margin-top: 5px;">Track money ia and out <img src="images/information.png" style="height: 20px; width: 20px; margin-left: 110px; " alt=""></div>
+    <div style="background-color: white; width: 80%; margin-left: 50px; height: 14%; text-align:center; padding-top: 14px; border-radius: 5px; margin-top: 5px;">Track money ia and out <img src="images/information.png" style="height: 20px; width: 20px; margin-left: 110px; " alt=""></div>
+    <button class="btn btn-secondary" style="margin: 20px 0 0 340px; color: black;">next <img src="images/next.png" style="width: 30px; height: 30px;" alt=""></button>
+</div>
+
+</div>
+
+
+  
+  <div class="carousel-item ">
+    <div class="w-100 bg-dark text-light" style="height: 500px; display: flex; justify-content: space-between;">
+    <h1 style="padding: 200px 0 0 200px; text-align: start;">You can Paid <br> For Buisness Expenses</h1>
+<div class="w-50" style="height: 450px; border-radius: 15px;  padding-left: 50px; "><img src="images/Business-Expenses-main.jpg" class="d-block w-100 " alt="" style="height: 450px; margin: 30px 50px 0px -50px; border-radius: 15px;"></div>
+</div>
+  </div>
+  <div class="carousel-item ">
+    <div class="w-100 bg-dark text-light" style="height: 500px; display: flex; justify-content: space-between;">
+    <h1 style="padding: 200px 0 0 200px; text-align: start;">You can Paid <br> For shopping</h1>
+<div class="w-50" style="height: 450px; border-radius: 15px;  padding-left: 50px; "><img src="images/shopping.jfif" class="d-block w-100 " alt="" style="height: 450px; margin: 30px 50px 0px -50px; border-radius: 15px;"></div>
+</div>
+  </div>
+  <div class="carousel-item ">
+    <div class="w-100 bg-dark text-light" style="height: 500px; display: flex; justify-content: space-between;">
+    <h1 style="padding: 200px 0 0 200px; text-align: start;">You can Paid <br> For Traveling</h1>
+<div class="w-50" style="height: 450px; border-radius: 15px;  padding-left: 50px; "><img src="images/travel.webp" class="d-block w-100 " alt="" style="height: 450px; margin: 30px 50px 0px -50px; border-radius: 15px;"></div>
+</div>
+  </div>
+  <div class="carousel-item ">
+    <div class="w-100 bg-dark text-light" style="height: 500px; display: flex; justify-content: space-between;">
+    <h1 style="padding: 200px 0 0 200px; text-align: start;">You can have been Paid <br>  By working</h1>
+<div class="w-50" style="height: 450px; border-radius: 15px;  padding-left: 50px; "><img src="images/work.webp" class="d-block w-100 " alt="" style="height: 450px; margin: 30px 50px 0px -50px; border-radius: 15px;"></div>
+</div>
+  </div>
+  
+  
+        </div>
+        
+          <button class="carousel-control-prev" type="button" data-bs-target="#shadyyyyyy" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#shadyyyyyy" data-bs-slide="next">
+            <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+  
+  
+        </div>
+      </div>
+
+<h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">Build your business and<br>  your knowledge</h1> <br>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo in itaqf Lorem ipsum dolor sit amet consectetur, adipisicing eli</p> <br>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card2">
+          <img src="images/start buisness.jpg" class="card-img-top" style="height: 350px;" alt="Image 1">
+          <div class="card-body" style="text-align: start;">
+            <button class="btn " style="background-color:rgb(64, 207, 207) ; margin-left: 15px; margin-top: 20px">Article</button>
+            <h2 class="card-title"  style="margin-top: 20px; margin-left: 15px;">how To start a buisness</h2>
+            <p class="card-text" style="margin-top: 20px; margin-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum veritatis,
+                 beatae similique quaerat architecto consequatur doloribus suscipit expedita ad mollitia id nesciunt esse, 
+                 s! 1</p>
+            <p class="card-text" style="color: rgb(12, 205, 253);  margin-left: 15px;">learn more </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card2">
+          <img src="images/write plan.jfif" class="card-img-top" style="height: 350px;" alt="Image 2">
+          <div class="card-body" style="text-align: start;">
+            <button class="btn " style="background-color:rgb(64, 207, 207) ; margin-left: 15px; margin-top: 20px">Article</button>
+            <h2 class="card-title"  style="margin-top: 20px; margin-left: 15px;">how To write a buisness plan </h2>
+            <p class="card-text" style="margin-top: 20px; margin-left: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum veritatis,
+                 beatae similique quaerat architecto consequatur doloribus suscipit expedita ad mollitia id nesciunt esse, 
+                 s! 1</p>
+            <p class="card-text" style="color: rgb(12, 205, 253);  margin-left: 15px;">learn more </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">Works with the apps you<br> already use </h1> <br>
+<h4>Lorem ipsum dolor sit amet consectetur adipisicini recusandae <br> consectetur hic beatae modi temporibus maxius harum !</h4>
+<div style="display: flex; justify-content:center; gap: 400px; margin-top: 80px;">
+<div><img src="images/quickbook.png" alt="" style="height: 100px; width: 100px;"><br><u style="font-weight: 700;">QuickBooks Time</u></div>
+<div><img src="images/amzon.png" alt="" style="height: 100px; width: 100px;"><br><p style="font-weight: 700;">Amazon</p></div>
+<div><img src="images/bill.png" alt="" style="height: 100px; width: 100px;"><br><p style="font-weight: 700;">Bill.com</p></div>
+</div>
+<br><br><br>
+<br><br><br>
+
+<h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">in Your Corner when you need us  </h1> <br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card3">
+        <img src="images/headphones gradiant.png" class="card-img-top" style="height: 35px; width: 10%;  margin-left: -280px; margin-top: 30px;" alt="Image 1">
+        <div class="card-body" style="text-align: start;">
+          <h2 class="card-title"  style="margin-top: 20px; margin-left: 15px; color: rgb(5, 165, 5);">Talk to sales</h2>
+          <p class="card-text" style="margin-top: 20px; margin-left: 15px; color: rgb(218, 211, 211);">Lorem ipsum dolor sit <br>
+               beatae similique quaerat ar 
+               s! 1</p>
+               
+               <p style="color: rgb(218, 211, 211); margin-bottom: -30px;" > call</p><p class="card-text" style="color: rgb(255, 255, 255);  margin-left: 15px; font-size: 25px; font-weight: 400; margin-left: 30px;">: 1-8465-16480 </p>
+               <p style="color: rgb(218, 211, 211);">Mon , Fri ,5 AM To 6 PM PT</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card3">
+        <img src="images/computer.png" class="card-img-top" style="height: 35px; width: 10%;  margin-left: -280px; margin-top: 30px;" alt="Image 1">
+        <div class="card-body" style="text-align: start;">
+          <h2 class="card-title"  style="margin-top: 20px; margin-left: 15px; color: rgb(5, 165, 5);">Visit our support</h2>
+          <p class="card-text" style="margin-top: 20px; margin-left: 15px; color: rgb(218, 211, 211);">Lorem ipsum dolor sit hykiu hgpoij f[w  jk]  <br>
+               beatae similique quaerat ar fghfhjff jh jkhj f
+               s! 1</p>
+               <br>
+             <div style="display: flex; justify-content: start; gap: 30px;">
+            <button class="btn btn-light" style="margin-left: 15px;">See resources</button>
+            <button class="btn btn-outline-light">need help signing in ?</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="width: 2000px; height: 1000px; background-color: rgb(7, 194, 7); border-radius: 50% 50% 0  0%;"><div>
+  <br><br><br>
+  <h1 style="padding-top: 60px; font-size: 60px; font-weight: 900;">in Your Corner when you need us  </h1> <br><br>
+  <div class="btn btn-dark">find your plan</div>
+  <br><br><br><br>
+  <p style="color: black; font-weight: 500;"> Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+<div style="background-color: black; z-index: -1; width: 2000px; height: 900px; color: white; display: flex; justify-content: space-around;">
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+<li>repudiandaeest?</li><br>
+<li> tore alias </li><br>
+<li>optio inven</li><br>
+<li>eaque ab</li><br>
+<li>e itaque </li><br>
+<li>r. Nam atqu</li><br>
+<li>e pariatu</li><br>
+<li>icta sapiente</li><br>
+<li>  nihil d</li><br>
+
+<li>repudiandaeest?</li><br>
+<li> tore alias </li><br>
+<li>optio inven</li><br>
+<li>eaque ab</li><br>
+<li>e itaque </li><br>
+<li>r. Nam atqu</li><br>
+<li>e pariatu</li><br>
+<li>icta sapiente</li><br>
+<li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+  
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+  
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+<li>repudiandaeest?</li><br>
+<li> tore alias </li><br>
+<li>optio inven</li><br>
+<li>eaque ab</li><br>
+<li>e itaque </li><br>
+<li>r. Nam atqu</li><br>
+<li>e pariatu</li><br>
+<li>icta sapiente</li><br>
+<li>  nihil d</li><br>
+<li>repudiandaeest?</li><br>
+<li> tore alias </li><br>
+<li>optio inven</li><br>
+<li>eaque ab</li><br>
+<li>e itaque </li><br>
+<li>r. Nam atqu</li><br>
+<li>e pariatu</li><br>
+<li>icta sapiente</li><br>
+<li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+</ul>
+<ul style="list-style: none; text-align: start; margin-top: 15px; visibility: hidden;">
+  <li style="font-size: 20px; font-weight: 500;">Lorem ipsum</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+  <li>repudiandaeest?</li><br>
+  <li> tore alias </li><br>
+  <li>optio inven</li><br>
+  <li>eaque ab</li><br>
+  <li>e itaque </li><br>
+  <li>r. Nam atqu</li><br>
+  <li>e pariatu</li><br>
+  <li>icta sapiente</li><br>
+  <li>  nihil d</li><br>
+</ul>
+
+</div></div></div>
+
+    
+
+</div>
+
+</body>
+</html>

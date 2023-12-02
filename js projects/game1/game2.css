@@ -1,0 +1,33 @@
+#container{
+  width: 450px;
+  height: 800px;
+  border: 1px solid gray;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  background-image: linear-gradient(rgb(255, 160, 241),rgb(0, 229, 255));
+  overflow: hidden;
+}
+#player{
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  left: 150px;
+  top: 650px;
+}
+#rock{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 150px;
+  top: -150px;
+  animation: shady 1s infinite;
+}
+@keyframes shady{
+  0%{ top: -150px;}
+  100%{
+      top: 100%;
+  }
+}
