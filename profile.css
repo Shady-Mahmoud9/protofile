@@ -49,12 +49,7 @@
     
 }
 
-.back{
-    border-radius: 50% 0 70% 0;
-    background-color: red;
-    width: 250px; 
-    height: 350px;
-}
+
 .secondcolumn{
     position: relative;
     margin-top: 50px;
@@ -67,7 +62,7 @@
 }
 .img2{
     z-index: 1;
-    width: 85%;
+    width: 70%;
     margin-top: -40px;
     transition: 1s ease-in-out;
     
@@ -75,7 +70,7 @@
 }
 .img1{
     
-    width: 100%;
+    width: 80%;
     /* transform: rotate(250deg); */
     box-shadow: 0 0 15px rgb(255, 139, 139);
 }
@@ -83,6 +78,7 @@
 
 .img2:hover{
     scale: 1.1;
+    transition: 1s ease-in-out;
 
 }
 .card{
