@@ -44,10 +44,10 @@
        
           .cardd {
             width: 200px;
-            height: 1200px;
+            height: 100%;
             border: 1px solid #ccc;
             border-radius: 5px;
-            padding: 10px;
+            padding: 15px;
             margin: 0 10px;
             text-align: center;
             background-color: rgb(255, 255, 255);
@@ -74,4 +74,6 @@
           #fdfd{
             display: none;
           }
+
         }
+     
