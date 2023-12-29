@@ -12,7 +12,24 @@
     margin-left: -39rem;
     list-style: none;
   }
+  .step-number {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+  }
   
+  .step-text {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-top: -5px;
+  }
           .row {
             display: flex;
             justify-content: center;
