@@ -37,8 +37,9 @@
         }
         .cardd:hover{
             border: 3px solid black;
-            width: 210px;
-            transition: 1s ease-out;
+            
+           
+            cursor: pointer;
         }
         .cardd:hover small {
               visibility: visible;
@@ -57,6 +58,18 @@
             
             
             margin-top: 70px;
+        }
+        .start-now-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff; /* Set text color to white or any color that contrasts with the image */
+          font-size: 2em; /* Adjust the font size as needed */
+      }
+      
+        .carda img:hover {
+          opacity: 0.6;
         }
        
           .cardd {
