@@ -4,10 +4,10 @@ const pianokeys =document.querySelectorAll(".piano-Keys .key"),
 
 
 let allkeys = [] ,
-audio =new Audio("a.mp3");
+audio =new Audio("a.wav");
 
 const playvoice =(key) => {
-    audio.src =`audios/${key}.mp3`
+    audio.src =`audios/${key}.wav`
     audio.play();
 
     const clickedkey =document.querySelector(`[data-key="${key}"]`);
